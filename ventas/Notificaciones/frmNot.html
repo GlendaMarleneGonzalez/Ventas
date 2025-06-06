@@ -1,0 +1,31 @@
+<!-- Nose hara con html:5 ya que es un formulario -->
+
+<div> <h2> Formulario Para Notificaciones </h2> </div>
+
+<form action="/index.html" method="get">
+
+    <label for="id"> ID: </label>
+    <input type="number" name="id" id="id">
+
+    <label for="usuario"> Usuario: </label>
+    <input type="number" name="usuario" id="usuario">
+
+    <label for="venta"> Venta: </label>
+    <input type="number" name="venta" id="venta">
+
+    <label for="tipo"> Tipo: </label>
+        <select name="tipo" id="tipo">
+
+        </select>
+
+    <label for="mensaje"> Mensaje: </label>
+    <textarea name="mensaje" id="mensaje" rows="4" cols="30"> </textarea>
+
+    <label for="fecha_envio"> Fecha de Envío: </label>
+    <input type="datetime-local" name="fecha_envio" id="fecha_envio">
+
+    <label for="estado"> Estado: </label>
+
+    <input type="submit" value="Enviar">
+
+</form>

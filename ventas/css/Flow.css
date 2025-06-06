@@ -1,0 +1,136 @@
+/* Estilos para la plantillas */
+
+    body{
+        background-image: url('/imagenes/fondo02.jpg');
+        background-size: 700px 700px;
+        background-repeat: repeat;
+        background-position: top left;
+        }
+
+    aside, header, nav, article, footer {
+        border: 2px solid black;
+        margin: 15px;
+        text-align: center;
+        background-color: white;
+    }
+
+    header {
+        text-align: center;
+        font-family: CHICKEN PIE;
+        text-shadow: 3px 3px 3px rgb(255, 255, 0);
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    body > div {
+        display: flex;
+    }
+
+    nav > ul > li {
+        display: inline;
+    }
+
+    article {
+        height: 600px;
+        text-align: center;
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    li {
+        list-style-type:none ;
+        background-color: pink;
+        border-radius: 15px;
+        margin: 10px auto;
+        padding: 0px;
+        width: 100px ;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    li:hover {
+        background-color: salmon;
+    }
+
+    img {
+        height: 140px;
+        width: 140px;
+        margin: 5px;
+        border-radius: 15px 30px;
+        /* opacity: 0.5; opacidad de la img */
+    }
+
+    td, th {
+        border: 1px solid blue;
+    }
+
+    table, tbody, thead, tr{ 
+        background-color: rgb(255, 190, 212);
+        width: 100%;
+        text-align: center;
+    }
+
+/* Estilos para mi formularios html */
+    form {
+        display: flex;
+        flex-flow: row wrap;
+        /* flex-direction: row; -- flex-wrap: wrap; */
+        width: 60%;
+        margin: 5px auto;
+        background-color: white;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: Pantry;
+        background-color: white;
+    }
+
+    h1 {
+        text-align: center;
+        /* font-family: Pantry; */
+        background-color: white;
+    }
+
+    label, input, fieldset {
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    fieldset {
+        margin: 0;
+        width: 100%;
+    }
+
+    input+fieldset {
+        width: 100%;
+    }
+
+    [type="image"] {
+        width: 50px;
+        height: 50px;
+        opacity: 0.5;
+    }
+
+    [type="range"] {
+        margin: 0%;
+        padding: 0%;
+    }
+    /* 
+    #compras {
+        height: 600px;
+        text-align: center;
+    } */

@@ -1,0 +1,36 @@
+<!-- Nose hara con html:5 ya que es un formulario -->
+
+<!-- glenda recuerda que un placeholder en un campo (<input>, <textarea>, etc.) proporciona un texto dentro del
+    campo que sirve como lo que se espera que el usuario ingrese en ese campo. Este texto
+    desaparece automáticamente cuando el usuario empieza a escribir en el campo. -->
+
+    <div> <h2> Formulario Para Articulos </h2> </div>
+    
+<form action="/index.html" method="get">
+    
+    <label for="id"> ID: </label>
+        <input type="text" name="id" id="id">
+    
+    <label for="nombre"> Nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+    
+    <label for=""> Descripcion: </label>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="3"></textarea>
+
+    <label for="precio"> Precio: </label>
+        <input type="number" name="precio" id="precio" placeholder="Ingresa el precio">
+
+    <label for="stock"> Stock: </label>
+        <input type="number" name="stock" id="stock" min="0" placeholder="Cantidad en stock">
+    
+    <label for="categorias"> Categorias: </label>
+        <select name="categorias" id="categorias">
+            <option value="Bats"> Bats </option>
+            <option value="Guantes"> Guantes </option>
+            <option value="Pantaloneras"> Pantaloneras </option>
+            <option value="Guanteletas"> Guanteletas </option>
+        </select>
+
+    <input type="submit" value=" Enviar ">
+
+</form>

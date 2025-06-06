@@ -1,0 +1,30 @@
+<!-- Nose hara con html:5 ya que es un formulario -->
+
+<div> <h2> Formulario Para Usuarios </h2> </div>
+ 
+<form action="/index.html" method="get">
+
+    <label for="id"> ID: </label>
+    <input type="text" name="id" id="id">
+    
+    <label for="nombre"> Nombre: </label>
+    <input type="text" name="nombre" id="nombre">
+    
+    <label for=""> Email: </label>
+    <input type="email" name="email" id="email">
+    
+    <label for=""> Contraseña: </label>
+    <input type="password" name="clave" id="clave">
+
+    <label for="rol"> Rol: </label>
+    <select name="rol" id="rol">
+        <option value=""> Selecciona un rol </option>
+        <option value="admin"> Administrador </option>
+        <option value="usuario"> Usuario </option>
+    </select>
+    
+    <label for="fecha"> Fecha de Creación: </label>
+    <input type="date" name="fecha" id="fecha">
+    
+    <input type="submit" value="Enviar">
+</form>

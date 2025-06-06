@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DASCORP SPORT </title>
+    <!-- <title> Ventas con plantilla 3 </title> -->
+    <link rel="stylesheet" href="/css/Flow.css">
+    <script defer src="/js/funciones.js"> </script>
+
+</head>
+<body>
+    <div>
+        <aside>
+            <ul>
+                <!-- <li> <a href="#" onclick="ver('Autenticacion/frmAut.html')"> Autenticacion </a></li> -->
+                <li> <a href="#" onclick="ver('Articulos/index.php')"> Articulos </a></li>
+                <li> <a href="#" onclick="ver('Categorias/index.php')"> Categorias </a></li>
+                <li> <a href="#" onclick="ver('Compras/index.php')"> Compras </a></li>
+                <li> <a href="#" onclick="ver('Detalles_Compra/index.php')"> Detalles de Compras </a></li>
+                <li> <a href="#" onclick="ver('Detalles_Venta/index.php')"> Detalles de Ventas </a></li>
+                <li> <a href="#" onclick="ver('Notificaciones/index.php')"> Notificaciones </a></li>
+                <li> <a href="#" onclick="ver('Pagos/index.php')"> Pagos </a></li>
+                <li> <a href="#" onclick="ver('Proveedores/index.php')"> Proveedores </a></li>
+                <li> <a href="#" onclick="ver('Usuarios/index.php')"> Usuarios </a></li>
+                <li> <a href="#" onclick="ver('Ventas/index.php')"> Ventas </a></li>
+            </ul>
+        </aside>
+
+        <section>
+            <header>
+                <h1> DASCORP SPORT </h1>
+            </header>
+
+            <div id="contenedor1">
+                <!-- <nav>
+                    <ul>
+                        <li> SubOpcion 1 </li>
+                        <li> SubOpcion 2 </li>
+                        <li> SubOpcion 3 </li>
+                        <li> SubOpcion 4 </li>
+                        <li> SubOpcion 5 </li>
+                    </ul>
+                </nav> -->
+
+                <article>
+                    <form action="/Autenticacion/ValidarUsuario.php" method="get" id="frm1">
+                        <label for="usuario"> Usuario: </label>
+                        <input type="text" name="usuario" id="usuario">
+                        
+                        <label for=""> Clave: </label>
+                        <input type="password" name="clave" id="clave">
+                        
+                        <label for=""></label>
+                        <button onclick="enviar()"> Entrar </button>
+                    </form>
+                </article>
+            </div>
+            <div id="contenedor1">
+
+            </div>
+
+            <footer id="pie">
+                Derechos Reservados por Glenda Marlene Gonzalez Vazquez - 18430410
+            </footer>
+        </section>
+
+    </div>
+</body>
+
+</html>
